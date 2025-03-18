@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- used "bs5" to generate base content -->
+<html lang="en">
+  <head>
+    <title>Bootstrap Project 2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+
+  </head>
+  <body>
+    <header>
+      <!-- Navbar from Bootstraps library. Took stuff out -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit"> <!-- would be cool to make this work on a later project -->
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+<!-- registration -->
+<div class="container-registration form-section">
+  <h1>Registration Form</h1>
+  <form>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="firstName" required>
+            </div>
+   
+            <div class="col-md-6 mb-3">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="lastName" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+        
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            
+            <input type="password" class="form-control" id="password" required>
+            <div class="invalid-feedback">Password is required.</div>
+          </div>
+          <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPassword" required>
+          </div>
+          <button class="btn btn-success submit-btn" type="submit">Submit</button>
+        </div>
+      </form>
+
+    </div>
+    
+    <!-- verify button -->
+    <div class="checkbox-container">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="verifyCheck" required>
+        <label class="form-check-label" for="verifyCheck">
+          I agree to the terms and conditions
+        </label>
+      </div>
+    </div>
+  </div>
+
+
+<!-- table -->
+    </div>
+
+    <div class="table-responsive"> 
+        <table class="table table-striped table-hover">
+            <thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>John</td>
+                  <td>Johnson</td>
+                  <td>Jj@gmail.com</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Joe</td>
+                  <td>Johnson</td>
+                  <td>JoeJ@gmail.com</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Joseph</td>
+                  <td>Johnson</td>
+                  <td>JoeJohn@gmail.com</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Jon</td>
+                  <td>Jonson</td>
+                  <td>jonjon@gmail.com</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+  <!-- rounded circle fluid img -->
+
+  <div class="container-fluid mt-4 text-center">
+    <img
+      src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+      class="rounded-circle img-fluid"
+      width="150"
+      height="150"
+      alt="bootstrap logo">
+    <!--  a button visible on all screens -->
+    <button class="btn btn-primary mt-2">Always Visible</button>
+    <!-- second button hidden on small screens -->
+    <div class="d-none d-md-block mt-2">
+      <button class="btn btn-secondary">Hidden on Small Screens</button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

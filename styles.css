@@ -1,0 +1,89 @@
+.container-registration {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .form-section {
+    margin-top: 30px;
+  }
+
+  .submit-btn {
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: #067a0a;
+  }
+
+  .submit-btn:hover {
+    background-color: #00ff3c;
+  }
+
+  .form-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+  }
+
+  .form-section form {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    transition: transform 0.3s;
+    transform: translateY(-10px);
+    background-color: #bfe3e69c;
+  }
+
+  body {
+    background-color: #787979c2;
+    padding: 20px;
+  }
+
+  .navbar a {
+    color: rgba(25, 46, 51, 0.612);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    background-color: transparent;
+    &:hover {
+      background-color: rgba(83, 119, 128, 0.812);
+    }
+  }
+
+  .table-responsive {
+    margin-top: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #0000009c;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+
+  .checkbox-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .form-check {
+    display: inline-block;
+    margin-right: 20px;
+  }
